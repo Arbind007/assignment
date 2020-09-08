@@ -26,7 +26,7 @@ function Song() {
           aria-label="Search"
         ></input>
         <div className="input-group-append">
-          <span className="input-group-text lime lighten-2" id="basic-text1">
+          <span className="input-group-text success lighten-2" id="basic-text1">
             <i className="fas fa-search text-grey" aria-hidden="true"></i>
           </span>
         </div>

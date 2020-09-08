@@ -19,7 +19,7 @@ function Title() {
               type="button"
               class="btn btn-light btn-outline-success btn-primary btn-lg"
             >
-              GET SPOTIFY FREE
+              GET SANGEET FREE
             </button>
           </div>
         </div>
