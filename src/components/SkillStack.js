@@ -1,91 +1,46 @@
 import React from "react";
-import Skill from "./Skill";
-import { v4 } from "uuid";
 
 function SkillStack() {
-  const skills = [
-    {
-      id: 1,
-      name: "HTML5",
-      imageUrl: require("../resources/photo/html.png"),
-      starsTotal: 5,
-      starsActive: 5,
-    },
-    {
-      id: 2,
-      name: "CSS3",
-      imageUrl: require("../resources/photo/css.png"),
-      starsTotal: 5,
-      starsActive: 4,
-    },
-    {
-      id: 3,
-      name: "Java Script",
-      imageUrl: require("../resources/photo/javascript.png"),
-      starsTotal: 5,
-      starsActive: 4,
-    },
-    {
-      id: 4,
-      name: "BootStrap",
-      imageUrl: require("../resources/photo/bootstrap.png"),
-      starsTotal: 5,
-      starsActive: 4,
-    },
-    {
-      id: 5,
-      name: "Python",
-      imageUrl: require("../resources/photo/python.png"),
-      starsTotal: 5,
-      starsActive: 5,
-    },
-    {
-      id: 6,
-      name: "SQL",
-      imageUrl: require("../resources/photo/sql.png"),
-      starsTotal: 5,
-      starsActive: 4,
-    },
-    {
-      id: 7,
-      name: "PHP",
-      imageUrl: require("../resources/photo/php.png"),
-      starsTotal: 5,
-      starsActive: 2,
-    },
-    {
-      id: 8,
-      name: "Go",
-      imageUrl: require("../resources/photo/go.png"),
-      starsTotal: 5,
-      starsActive: 4,
-    },
-  ];
-
-  console.log(v4());
-  const finalSkillRow = [];
-  for (let i = 0; i < skills.length / 4; i++) {
-    let skillRow = skills.slice(i * 4, (i + 1) * 4);
-    finalSkillRow.push(
-      <div key={v4()} className="d-flex justify-content-around py-3">
-        {skillRow.map((skill) => (
-          <Skill key={v4()} skill={skill} />
-        ))}
-      </div>
-    );
-  }
   return (
     <div className="bg-light w-100">
       <div className="container text-center py-5">
         <h1 className="font-weight-light">
-          <span className="text-info">Technology</span> Stack
+          <span className="font-weight-bold py-5">Why Sangeet?</span>
         </h1>
-        <div className="lead">
-          I design, develop and deliver with these weapons
+        <div className="lead"></div>
+        <div className="d-flex justify-content-around py-3">
+          <div className="mx-2">
+            <i class="fas fa-play-circle"></i>
+            <h3>Play your favorites.</h3>
+            <div className="text-justify">
+              Listen to the songs you love, and discover new music and podcasts.
+            </div>
+          </div>
+          <div className="mx-2">
+            <i class="fas fa-book"></i>
+            <h3>Playlists made easy.</h3>
+            <div className="text-justify">
+              We'll help you make playlists. Or enjoy playlists made by music
+              experts.
+            </div>
+          </div>
+          <div className="mx-2">
+            <i class="fas fa-heart"></i>
+            <h3>Make it yours.</h3>
+            <div className="text-justify">
+              Tell us what you like, and we'll recommend music for you.
+            </div>
+          </div>
+          <div className="mx-2">
+            <i class="fas fa-bolt"></i>
+            <h3>Save mobile data.</h3>
+            <div className="text-justify">
+              To use less data when you play music, turn on Data Saver in
+              Settings.
+            </div>
+          </div>
         </div>
-        <div className="d-flex justify-content-around py-3"></div>
       </div>
-      {finalSkillRow}
     </div>
   );
 }

@@ -41,6 +41,7 @@ class Contact extends Component {
         <h1 className="font-weight-light text-center py-5">
           <span className="text-info">Thank you! </span>for your interest
         </h1>
+
         <div className="row justify-content-center">
           <div className="col-11 col-lg-5">
             <form onSubmit={this.onSubmit}>
@@ -63,22 +64,21 @@ class Contact extends Component {
                 />
               </div>
               <div className="form-group">
-                <label htmlFor="description">
-                  Tell me about your project *
-                </label>
-                <textarea
+                <label htmlFor="phone">Phone *</label>
+                <input
+                  type="phone"
+                  name="phone"
                   className="form-control"
-                  name="description"
-                  rows="5"
                   onChange={this.onChange}
-                ></textarea>
+                />
               </div>
+
               <button
                 type="submit"
                 className="btn btn-dark float-right"
                 style={{ backgroundColor: "black" }}
               >
-                Let's talk
+                Submit
               </button>
             </form>
           </div>
