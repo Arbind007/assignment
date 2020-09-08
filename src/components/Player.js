@@ -11,12 +11,28 @@ function Player() {
           <div className="text-center" id="myBar"></div>
         </div>
       </div>
-      <i class="fas fa-fast-backward"></i>
-
-      <i class="fas fa-step-backward"></i>
-      <i class="fas fa-play"></i>
-      <i class="fas fa-step-forward"></i>
-      <i class="fas fa-fast-forward"></i>
+      <div class="col-md-12 text-center mt-5">
+        <div class="btn-group">
+          <button type="button" class="btn btn-dark">
+            <i class="fas fa-fast-backward"></i>
+          </button>
+          <button type="button" class="btn btn-dark">
+            <i class="fas fa-backward"></i>
+          </button>
+          <button type="button" class="btn btn-dark">
+            <i class="fas fa-pause-circle"></i>
+          </button>
+          <button type="button" class="btn btn-dark">
+            <i class="fas fa-play-circle"></i>
+          </button>
+          <button type="button" class="btn btn-dark">
+            <i class="fas fa-forward"></i>
+          </button>
+          <button type="button" class="btn btn-dark">
+            <i class="fas fa-fast-forward"></i>
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

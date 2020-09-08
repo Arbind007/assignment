@@ -18,8 +18,7 @@ function Footer() {
             <Link to="/contact" className="text-light d-block">
               Contact Us
             </Link>
-            <a href="#" className="text-light d-block"></a>
-            <a href="#" className="text-light d-block"></a>
+
             <Link to="/" className="text-light d-block">
               Help
             </Link>

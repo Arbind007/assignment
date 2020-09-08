@@ -70,7 +70,7 @@
 #rain1 {
   height: 200px;
   width: 300px;
-  box-shadow: 8px 8px #535353;
+  box-shadow: 8px 8px rgba(139, 139, 139, 0.3);
 }
 
 td,
