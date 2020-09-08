@@ -23,7 +23,7 @@ class Contact extends Component {
 
     if (isSuccessful) {
       this.setState({
-        submitMessage: `Thank you ${name}. I will contact you soon!`,
+        submitMessage: `Thank you ${name}. We will contact you soon!`,
         submitMessageTextColor: "text-info",
       });
     } else {
