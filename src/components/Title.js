@@ -7,7 +7,7 @@ function Title() {
     <div className="container text-center " id="top">
       <div className="row align-items-center pt-5">
         <div className="col-12 col-md-6">
-          <img src={Logo} alt="arbindlochanmishra" id="ram6" />
+          <img src={Logo} alt="Sangeet" id="ram6" />
         </div>
         <div className="col-12 col-md-6 pt-5">
           <div
