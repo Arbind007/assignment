@@ -31,7 +31,7 @@ function Footer() {
             Sangeet is a digital music, podcast, and video streaming service
             that gives you access to millions of songs and other content from
             artists all over the world. Basic functions such as playing music
-            are totally free, but you can also choose to upgrade to Spotify
+            are totally free, but you can also choose to upgrade to Sangeet
             Premium.
           </div>
           <div className="col-12 col-md-4 py-3">

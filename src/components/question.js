@@ -19,7 +19,7 @@ function question() {
                 for your own listening or to share. To create one:
               </li>
               <li>1.Tap Your Library.</li>
-              <li>2.TapCREATE.</li>
+              <li>2.Tap CREATE.</li>
               <li>3.Give your playlist a name.</li>
               <li>4.Start adding songs (and we’ll help you along).</li>
             </ul>

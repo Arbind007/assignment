@@ -16,8 +16,21 @@ $(document).ready(function () {
 
 function Song() {
   return (
-    <div className="" id="soup">
-      <input id="myInput" type="text" placeholder="Search.."></input>
+    <div id="soup">
+      <div className="input-group md-form form-sm form-2 pl-0">
+        <input
+          className="form-control my-0 py-1 lime-border"
+          type="text"
+          id="myInput"
+          placeholder="Search"
+          aria-label="Search"
+        ></input>
+        <div className="input-group-append">
+          <span className="input-group-text lime lighten-2" id="basic-text1">
+            <i className="fas fa-search text-grey" aria-hidden="true"></i>
+          </span>
+        </div>
+      </div>
 
       <table>
         <thead>
@@ -31,7 +44,7 @@ function Song() {
           <tr>
             <td>
               <img
-                className="img-fluid w-40"
+                classNameName="img-fluid w-40"
                 src={Pic1}
                 alt="Dusk Till Dawn"
                 id="rain1"
@@ -44,7 +57,7 @@ function Song() {
           <tr>
             <td>
               <img
-                className="img-fluid w-40"
+                classNameName="img-fluid w-40"
                 src={Pic2}
                 alt="Perfect"
                 id="rain1"
@@ -57,7 +70,7 @@ function Song() {
           <tr>
             <td>
               <img
-                className="img-fluid w-40"
+                classNameName="img-fluid w-40"
                 src={Pic3}
                 alt="Something Just Like This"
                 id="rain1"
@@ -70,7 +83,7 @@ function Song() {
           <tr>
             <td>
               <img
-                className="img-fluid w-40"
+                classNameName="img-fluid w-40"
                 src={Pic4}
                 alt="Happier"
                 id="rain1"
