@@ -1,27 +1,24 @@
 import React from "react";
 
-import Logo from "../resources/photo/main.jpg";
-
 function Title() {
   return (
-    <div className="container text-center " id="top">
-      <div className="row align-items-center pt-5">
-        <div className="col-12 col-md-6">
-          <img src={Logo} alt="Sangeet" id="ram6" />
-        </div>
-        <div className="col-12 col-md-6 pt-5">
-          <div
-            className="font-weight-bold text-white"
-            style={{ fontSize: "50px" }}
-          >
-            <h1>Play millions of songs and podcasts, for free.</h1>
-            <button
-              type="button"
-              class="btn btn-light btn-outline-success btn-primary btn-lg"
-            >
-              GET SANGEET FREE
-            </button>
-          </div>
+    <div className="container text py-3" id="top">
+      <div className="row align-items ">
+        <div className="col-12 col-md-12">
+          <nav class="navbar navbar-light bg-light justify-content-between">
+            <a class="navbar-brand">Campaigns</a>
+            <form class="form-inline">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              ></input>
+              <button type="button" class="btn btn-outline-primary">
+                Create Campaign
+              </button>
+            </form>
+          </nav>
         </div>
       </div>
     </div>
